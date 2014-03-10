@@ -1,0 +1,23 @@
+/* Cabecera */
+background-color: #fac72c;
+background-color: #f6a611;
+/* Input #search */
+background-color: #8d5712;
+/* Menu*/
+background-color: #1b1b1b;
+background-color: #343434;
+/* Contenedor imagen */
+background-color: #837e60;
+Considerar transparencia, no es un solido.
+/* Cintas */
+background-color: #f6a410;
+/* Pie */
+background-color: #222222;
+/* Texto */
+Se incluye en la carpeta artifacts la fuente a implementar mediante @font-face
+/* Texto del contenido */
+color: #868686;
+/* Texto de enlaces */
+color: #eb4900;
+/* Resto del texto */
+color: #ffffff;
