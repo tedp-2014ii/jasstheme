@@ -61,28 +61,28 @@ header{
 		width: 32px;
 		height: 32px;
 		display: block;
-		background: url(../resources/sprite.png) no-repeat;
+		background: url(../images/sprite.png) no-repeat;
 	}
 
 	#fb{
 		width: 32px;
 		height: 32px;
 		display: block;
-		background: url(../resources/sprite.png) no-repeat -42px 0;
+		background: url(../images/sprite.png) no-repeat -42px 0;
 	}
 
 	#twi{		
 		width: 32px;
 		height: 32px;
 		display: block;
-		background: url(../resources/sprite.png) no-repeat -84px 0;
+		background: url(../images/sprite.png) no-repeat -84px 0;
 	}
 
 	#yout{
 		width: 32px;
 		height: 32px;
 		display: block;
-		background: url(../resources/sprite.png) no-repeat -126px 0;
+		background: url(../images/sprite.png) no-repeat -126px 0;
 	}
 
 	input{
@@ -99,7 +99,7 @@ header{
 		height: 25px;
 		border-radius: 0 15px 15px 0;
 		display: inline-block;
-		background: url(../resources/search.png) no-repeat;
+		background: url(../images/search.png) no-repeat;
 	}
 
 
