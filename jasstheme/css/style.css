@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body{
+	
+	font-family: sans-serif;
+}
+
+header{
+	width: 980px;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+	background: rgb(255,214,94); 
+	background: -moz-linear-gradient(top,  rgba(255,214,94,1) 48%, rgba(252,185,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(48%,rgba(255,214,94,1)), color-stop(100%,rgba(252,185,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,214,94,1) 48%,rgba(252,185,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,214,94,1) 48%,rgba(252,185,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,214,94,1) 48%,rgba(252,185,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,214,94,1) 48%,rgba(252,185,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#fcb900',GradientType=0 ); /* IE6-9 */
+}
+	header .flotado{
+			margin: 5px 50px;
+			float: left;
+		}
+	header .flotado1{
+			
+			margin:  5px 50px 3px 400px;
+			float: right;	
+		}
+	header button{
+
+		height: 25px;
+		width: 25px;
+		display: inline-block;
+		float: right;
+		background-image:  url(../search.png);
+		background-repeat: no-repeat;
+		background-position: 0 0;
+		border-radius: 0 25px 25px 0;
+
+
+	}
+
+	header input {
+		height: 25px;
+		width: 150px;
+		display: inline-block;
+		background-color: #8d5712;
+		border-radius: 20px 0 0 20px;
+	}
+
+	#social {
+		display: inline-block;
+		float: right;
+		margin: 0 50px 0 0;
+	}
+
+	#social ul{
+			display: inline-block;
+			float: right;
+			margin: 5px ;
+		
+
+		}
+
+	#social li{
+		display: inline-block;
+			float: left;
+			margin: 5px;
+
+
+	}
+
+	#rss{
+
+		background-image: url(../sprite.png);
+		background-repeat: no-repeat;
+		background-position:  -2px 0;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+	
+	}
+
+	#facebook{
+
+		background-image: url(../sprite.png);
+		background-repeat: no-repeat;
+		background-position:  -44px 0;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		
+	}
+
+	#twitter{
+		background-image: url(../sprite.png);
+		background-repeat: no-repeat;
+		background-position:  -86px 0;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		
+	}
+
+	#youtube{
+
+		background-image: url(../sprite.png);
+		background-repeat: no-repeat;
+		background-position: -128px 0;
+		display: inline-block;
+		width: 32px;
+		height: 32px;
+		
+	}
+	
+nav{
+	width: 989px;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: black;
+	position: relative;
+}
+	nav .flotado{
+			margin: 10px 1px 10px 60px;
+			float: left;
+		}
+	nav a.link{
+		color:#FFFFFF;
+		float: right;
+	}
+	nav a:visited{
+		color: #FFFFFF;
+		float: right;	
+	}
+
+	nav ul li ul {
+		position: absolute;
+		z-index: 2;
+		display: none;
+
+	}
+	nav, nav ul li ul{
+
+		background-color: black;
+		padding: 5px;
+	}
+	nav ul li{
+		float: left;
+		margin: 10px 1px 10px 60px;
+	}
+
+	nav ul li ul li{
+
+		float: none;
+	}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+figure{
+	width: 980px;
+	height: 10;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #967826;
+	position: relative;
+}
+	figure .flotado{
+			margin: 10px 60px;
+			border: 10px solid #fcb900;
+			float: left;
+			-webkit-box-shadow:5px 0 22px #111;
+			box-shadow:5px 5px 22px #111;
+	}
+
+	figure figcaption{
+		position: absolute;
+		background-color: rgba(0,0,0,0.5);
+		display: block;
+		width: 100%;
+		padding: 1px;
+		bottom: 35px;
+	}
+	
+article{
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px;
+	position: relative;
+}
+	article .flotado{
+			margin: 10px;
+			float: left;
+		}
+	section{
+		width: 500px;
+		margin: 0 auto;
+		padding: 10px;
+	}
+		section .flotado{
+			width: 300px;
+			margin: 10px;
+			float: left;
+		}
+		section .flot{
+			margin: 0 auto;
+			float: left;
+		}
+		section .flotado1{
+			height: 30px;
+			width: 350px;
+			margin: 0 auto;
+			background: #E4B50B;
+			float: right;
+		}
+		
+		section .marco{
+			margin: 15px 0px;
+			-webkit-box-shadow:20px 1px 2px #111;
+			box-shadow:5px 5px 22px #111;
+
+		}
+
+
+		
+
+		section .marco .date{
+
+			background-image: url(../date.png) ;
+			background-repeat: no-repeat;
+			height: 50px;
+			width: 430px;
+
+		}
+
+		section .marco .comentario{
+			background-image: url(../comments.png) ;
+			background-repeat: no-repeat;
+			height: 50px;
+			width: 400px;
+			float: left;
+
+
+		}
+
+		#leer{
+
+			float: right;
+
+		}
+
+		section .marco .comentario p{
+
+			float: left;
+		}
+
+		section a {
+
+			color: red ;
+		}
+aside{
+		width: 350px;
+		margin: 0 auto;
+		padding: 10px;
+}
+	aside .flotado{
+			margin: 10px;
+			float: left;
+	}
+	aside .flotado1{
+			height: 30px;
+			width: 250px;
+			margin: 0 auto;
+			background: #E4B50B;
+			float: right;
+	}
+footer{
+	width: 980px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #4F4F4F;
+	position: relative;
+}	
+
+	footer .flotado1{
+			margin: 1px 160px 1px 40px;
+			float: left;
+		}
+	footer .flotado{
+			margin: 5px;
+			float: left;
+		}
+	footer p{
+		font-size: small;
+		color: gray;
+	}
+#scroll{
+	width: 800px;
+	margin: 0 auto;
+	overflow-y: hidden;
+	overflow-x:scroll ;
+	height: 120px;
+	white-space: nowrap;
+
+}	
+	#scroll .flotado{
+			
+			display: inline-block;
+		}
+
+
