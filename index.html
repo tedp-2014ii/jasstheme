@@ -1,61 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset= "utf-8">
+	<meta charset= "utf-8"><!-- <meta charset="iso-8859-1"> -->
 	<title> JASS THEME</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
 		
-		<header>
-			<div>
-				<img id="imghead" class="flotado" src="images/logo.png">
-				<div class="content">
-					<ul id="social">
-						<li><a href="#" id="rss"></a></li>
-						<li><a href="#" id="facebook"></a></li>
-						<li><a href="#" id="twitter"></a></li>
-						<li><a href="#" id="youtube"></a></li>
-					</ul>
-					<div class="flotado1">
-						<button></button>
-						<input  type="search" placehoder="Buscar">
-					</div>
+	<header>
+		<div>
+			<img id="imghead" class="flotado" src="images/logo.png">
+			<div class="content">
+				<ul id="social">
+					<li><a href="#" id="rss"></a></li>
+					<li><a href="#" id="facebook"></a></li>
+					<li><a href="#" id="twitter"></a></li>
+					<li><a href="#" id="youtube"></a></li>
+				</ul>
+				<div class="flotado1">
+					<button></button><!-- <button type="submit"></button> -->
+					<input  type="search" placehoder="Buscar">
 				</div>
 			</div>
-			<div style="clear: both"></div>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Servicios</a></li>
-				<li><a href="#">Portafolio</a>
-					<ul>
-						<li><a href="#">Logo marcas</a></li>
-						<li><a href="#"> Web</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Blog</a></li>
-				<li><a href="#">Sobre</a></li>
-				<li><a href="#">Contacto</a></li>
-			</ul>
-			<div style="clear: both"></div>
-		</nav>
+		</div>
+		<div style="clear: both"></div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Servicios</a></li>
+			<li><a href="#">Portafolio</a>
+				<ul>
+					<li><a href="#">Logo marcas</a></li>
+					<li><a href="#"> Web</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Sobre</a></li>
+			<li><a href="#">Contacto</a></li>
+		</ul>
+		<div style="clear: both"></div>
+	</nav>
 
+	<figure>
+		<img class="flotado" src="images/conexao.png" title="CONEXAO"/>
+		<figcaption class="flotado1"><p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></figcaption>	
+		<div style="clear: both"></div><!-- Uso indebido de los estilos en tag's, además el "div" por semantica debe ir fuera del elemento "figure" -->
+	</figure>
 
-		<figure>
-			<img class="flotado" src="images/conexao.png" title="CONEXAO"/>
-			<figcaption class="flotado1"><p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></figcaption>	
-			<div style="clear: both"></div>	
-		</figure>
-
-
-		<div id="caja"></div>
+	<div id="caja"></div><!-- Este "div" esta sobrando, se utiliza como estilo, implementar otros estilos en CSS -->
 
 
 		<article>
 			<section>
-				<div class="marco">
+				<div class="marco"><!-- Cada uno de los elementos "div.marco" deberían ser un tag "section" -->
 					<div class="fecha">
 						<p>11</p>
 						<p>DEC</p>
@@ -63,7 +61,7 @@
 					<div class="text">
 						<img  class="flot" src="images/bike.png">
 						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
+							<p>LOREM IPSUM DOLOR SIT AMET</p><!-- Debería por semantica ser una etiqueta h2, h3 o h4 -->
 						</div>
 						<div class="flotado">
 							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
@@ -78,7 +76,7 @@
 					</div>
 				</div>
 
-				<div class="marco">
+				<div class="marco"><!-- Cada uno de los elementos "div.marco" deberían ser un tag "section" -->
 					<div class="fecha">
 						<p>11</p>
 						<p>DEC</p>
@@ -86,7 +84,7 @@
 					<div class="text">
 						<img  class="flot" src="images/bike.png">
 						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
+							<p>LOREM IPSUM DOLOR SIT AMET</p><!-- Debería por semantica ser una etiqueta h2, h3 o h4 -->
 						</div>
 						<div class="flotado">
 							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
@@ -101,7 +99,7 @@
 					</div>
 				</div>
 
-				<div class="marco">
+				<div class="marco"><!-- Cada uno de los elementos "div.marco" deberían ser un tag "section" -->
 					<div class="fecha">
 						<p>11</p>
 						<p>DEC</p>
@@ -109,7 +107,7 @@
 					<div class="text">
 						<img  class="flot" src="images/bike.png">
 						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
+							<p>LOREM IPSUM DOLOR SIT AMET</p><!-- Debería por semantica ser una etiqueta h2, h3 o h4 -->
 						</div>
 						<div class="flotado">
 							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
@@ -127,7 +125,7 @@
 
 			<aside class="flotado">
 				<div>
-				<div class="flotado1"><p>Categorias</p></div>
+				<div class="flotado1"><p>Categorias</p></div><!-- Por semantica el tag <p> debería ser un elemento h2, h3, o h4. Además se puede evitar el uso del "div" que lo contiene. -->
 				<div>
 					<div class="flotado">
 						<ul>
@@ -161,39 +159,40 @@
 				</div>
 				<div>
 
-					<div class="flotado1"><p>Libros</p></div>
+					<div class="flotado1"><p>Libros</p></div><!-- Por semantica el tag <p> debería ser un elemento h2, h3, o h4. Además se puede evitar el uso del "div" que lo contiene. -->
 					<div>
-						<img src="images/image_01.png">
-						<img src="images/image_02.png">
-						<img src="images/image_03.png">
-						<img src="images/image_04.png">
+						<img src="images/image_01.png"><!-- Uso del atributo alt="Para dar semantica" -->
+						<img src="images/image_02.png"><!-- Uso del atributo alt="Para dar semantica" -->
+						<img src="images/image_03.png"><!-- Uso del atributo alt="Para dar semantica" -->
+						<img src="images/image_04.png"><!-- Uso del atributo alt="Para dar semantica" -->
 					</div>
 				</div>
 				<div>
-					<div class="flotado1"><p>Video</p></div>
+					<div class="flotado1"><p>Video</p></div><!-- Por semantica el tag <p> debería ser un elemento h2, h3, o h4. Además se puede evitar el uso del "div" que lo contiene. -->
 					<video width="320" height="240" controls>
 						<source src="high.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>	
-					</video>
+					</video><!-- <video width="320" height="240" controls><source src="high.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'><source src="high.webm" type='video/webm; codecs="vp8, vorbis"'>
+<source src="high.ogv" type='video/ogg; codecs="theora, vorbis"'></video> Para que el video se pueda reproducir correctamente en todos los navegadores se debe incluir en formato mp4, webm y ogv -->
 				</div>
 				<div>
-					<div class="flotado1"><p>Facebook</p></div>
+					<div class="flotado1"><p>Facebook</p></div><!-- Por semantica el tag <p> debería ser un elemento h2, h3, o h4. Además se puede evitar el uso del "div" que lo contiene. -->
 					<div><img src="images/facebook.png"></div>
 				</div>
 			</aside>
 			<div style="clear: both"></div>
-		</article>
+		</article><!-- Este tag debería cerrarse antes del tag "aside" -->
 		<div id="slide">
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_mountain.png "/>
-				<img src="images/sld_ligths.png"/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_ligths.png"/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_ligths.png"/>
+				<img src="images/sld_moto.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_mountain.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_ligths.png"/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_colors.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_moto.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_colors.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_moto.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_ligths.png"/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_colors.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_moto.png "/><!-- Por semantica se debe agregar el atributo alt -->
+				<img src="images/sld_ligths.png"/><!-- Por semantica se debe agregar el atributo alt -->
 			<div style="clear: both"></div>
 		</div>
 		<footer>
