@@ -1,255 +1,252 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+	<!-- <meta charset="UTF-8"> -->
 	<title>Jasstheme</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	
-
 
 	<header>
 		<div id="head">
-		<div id="logo" class="flotado">
-			<img src="images/logo.png">
-		</div>
-		<div id="spr" class="flotado">
-			<ul id="sprite">
-				<li class="flotasp"><a id="rss" href="#"></a></li>
-				<li class="flotasp"><a id="fb" href="#"></a></li>
-				<li class="flotasp"><a id="twi" href="#"></a></li>
-				<li class="flotasp"><a id="yout" href="#"></a></li>
-			</ul>
-			<input class="flotado" type="search" placeholder="  buscar...">
-			<button id="busca" class="flotado"></button>
-		</div>
-	<div style="clear: both"></div>
+			<div id="logo" class="flotado">
+				<img src="images/logo.png">
+			</div>
+			<div id="spr" class="flotado">
+				<ul id="sprite">
+					<li class="flotasp"><a id="rss" href="#"></a></li>
+					<li class="flotasp"><a id="fb" href="#"></a></li>
+					<li class="flotasp"><a id="twi" href="#"></a></li>
+					<li class="flotasp"><a id="yout" href="#"></a></li>
+				</ul><!-- Nuevamente el uso excesivo de la clase "flotasp" -->
+				<input class="flotado" type="search" placeholder="  buscar...">
+				<button id="busca" class="flotado"></button><!-- <button type="submit" id="busca" class="flotado"></button> -->
+			</div>
+			<div style="clear: both"></div> <!-- Uso indebido de estilos en tags -->
 		</div>
 	</header>
 
 	<nav>
 		<div id="menprin">
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#">Servicios</a></li>
-			<li><a href="#">Portafolio</a>
-				<ul>
-					<li><a href="#">Logomarcas</a></li>
-					<li><a href="#">Web</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Blog</a></li>
-			<li><a href="#">Acerca De</a></li>
-			<li><a href="#">Contacto</a></li>
-		</ul>
-		<div style="clear: both"></div>
-		</div>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Portafolio</a>
+					<ul>
+						<li><a href="#">Logomarcas</a></li>
+						<li><a href="#">Web</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Acerca De</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+			<div style="clear: both"></div> <!-- Uso indebido de estilos en tags, reemplazar por una clase, se justifica el uso -->
+		</div><!-- El tag "div" esta de más -->
 	</nav>
-
 
 	<figure>
 		<div id="figura">
-		<img src="images/conexao.png" title="principal" />
-		<figcaption class="flotadopie"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada...</p></figcaption>
-		<div style="clear: both"></div>
-		</div>
-	</figure>
+			<img src="images/conexao.png" title="principal" />
+			<figcaption class="flotadopie"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean fermentum malesuada...</p></figcaption>
+			<div style="clear: both"></div>
+		</div><!-- Mala construcción del elemento <figure><img src="images/conexao.png" title="principal" /><figcaption></figcaption></figure> -->
+	</figure><!-- Encapsular dentro de un "article" -->
 
 	<article>
-			<section>
-				<div class="marco">
-					<div class="fecha">
-						<p>11</p>
-						<p>dic</p>
-					</div>
-					<div class="text">
-						<img  class="flot" src="images/bike.png">
-						<div class="flotado1">
-							<p>Lorem ipsum dolor sit amet</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
-						</div>
-						<div class="flotado">
-							<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
-						</div>
-					</div>
-					<div class="comments"> 
-						<p>120 comentarios</p>
-						<p><a href="#">Leer mas...</a></p>
-					</div>
+		<section>
+			<div class="marco">
+				<div class="fecha">
+					<p>11</p>
+					<p>dic</p>
 				</div>
-
-				<div class="marco">
-					<div class="fecha">
-						<p>11</p>
-						<p>dic</p>
-					</div>
-					<div class="text">
-						<img  class="flot" src="images/bike.png">
-						<div class="flotado1">
-							<p>Lorem ipsum dolor sit amet</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
-						</div>
-						<div class="flotado">
-							<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
-						</div>
-					</div>
-					<div class="comments"> 
-						<p>120 comentarios</p>
-						<p><a href="#">Leer mas...</a></p>
-					</div>
-				</div>
-
-				<div class="marco">
-					<div class="fecha">
-						<p>11</p>
-						<p>dic</p>
-					</div>
-					<div class="text">
-						<img  class="flot" src="images/bike.png">
-						<div class="flotado1">
-							<p>Lorem ipsum dolor sit amet</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
-						</div>
-						<div class="flotado">
-							<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
-						</div>
-					</div>
-					<div class="comments"> 
-						<p>120 comentarios</p>
-						<p><a href="#">Leer mas...</a></p>
-					</div>
-				</div>
-
-				<div class="marco">
-					<div class="fecha">
-						<p>11</p>
-						<p>dic</p>
-					</div>
-					<div class="text">
-						<img  class="flot" src="images/bike.png">
-						<div class="flotado1">
-							<p>Lorem ipsum dolor sit amet</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
-						</div>
-						<div class="flotado">
-							<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
-						</div>
-					</div>
-					<div class="comments"> 
-						<p>120 comentarios</p>
-						<p><a href="#">Leer mas...</a></p>
-					</div>
-				</div>
-
-				<div class="marco">
-					<div class="fecha">
-						<p>11</p>
-						<p>dic</p>
-					</div>
-					<div class="text">
-						<img  class="flot" src="images/bike.png">
-						<div class="flotado1">
-							<p>Lorem ipsum dolor sit amet</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
-						</div>
-						<div class="flotado">
-							<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
-						</div>
-					</div>
-					<div class="comments"> 
-						<p>120 comentarios</p>
-						<p><a href="#">Leer mas...</a></p>
-					</div>
-				</div>
-			</section>
-
-			<aside class="flotado">
-				<div>
-				<div id="categ" class="flotado1"><p>Categorias</p></div>
-				<div>
-					<div class="flotado">
-						<ul>
-							<li>Backgrounds</li>
-							<li>Brushes</li>
-							<li>Design Articles</li>
-							<li>Fonts</li>
-							<li>Free PSD Files</li>
-							<li>Icons</li>
-							<li>Logo</li>
-							<li>Pattierns</li>
-							<li>Textures</li>
-							<li>Tools & Utilities</li>
-						</ul>
+				<div class="text">
+					<img  class="flot" src="images/bike.png">
+					<div class="flotado1">
+						<p>Lorem ipsum dolor sit amet</p>
 					</div>
 					<div class="flotado">
-						<ul>
-							<li>Backgrounds</li>
-							<li>Brushes</li>
-							<li>Design Articles</li>
-							<li>Fonts</li>
-							<li>Free PSD Files</li>
-							<li>Icons</li>
-							<li>Logo</li>
-							<li>Pattierns</li>
-							<li>Textures</li>
-							<li>Tools & Utilities</li>
-						</ul>
+						<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
+					</div>
+					<div class="flotado">
+						<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
 					</div>
 				</div>
+				<div class="comments"> 
+					<p>120 comentarios</p>
+					<p><a href="#">Leer mas...</a></p>
 				</div>
-				<div>
+			</div>
 
-					<div id="socios" class="flotado1"><p>Socios</p></div>
-					<div>
-						<img src="images/image_01.png">
-						<img src="images/image_02.png">
-						<img src="images/image_03.png">
-						<img src="images/image_04.png">
+			<div class="marco">
+				<div class="fecha">
+					<p>11</p>
+					<p>dic</p>
+				</div>
+				<div class="text">
+					<img  class="flot" src="images/bike.png">
+					<div class="flotado1">
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
+					</div>
+					<div class="flotado">
+						<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
 					</div>
 				</div>
-				<div>
-					<div id="video" class="flotado1"><p>Video</p></div>
-					<video width="320" height="240" controls>
-						<source src="images/Try.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>	
-					</video>
+				<div class="comments"> 
+					<p>120 comentarios</p>
+					<p><a href="#">Leer mas...</a></p>
 				</div>
-				<div>
-					<div id="face" class="flotado1"><p>No Facebook</p></div>
-					<div><img src="images/facebook.png"></div>
+			</div>
+
+			<div class="marco">
+				<div class="fecha">
+					<p>11</p>
+					<p>dic</p>
 				</div>
-			</aside>
-			<div style="clear: both"></div>
-		</article>
+				<div class="text">
+					<img  class="flot" src="images/bike.png">
+					<div class="flotado1">
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
+					</div>
+					<div class="flotado">
+						<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
+					</div>
+				</div>
+				<div class="comments"> 
+					<p>120 comentarios</p>
+					<p><a href="#">Leer mas...</a></p>
+				</div>
+			</div>
 
-		<div id="slide">
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_mountain.png "/>
-				<img src="images/sld_ligths.png"/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_ligths.png"/>
-				<img src="images/sld_colors.png "/>
-				<img src="images/sld_moto.png "/>
-				<img src="images/sld_ligths.png"/>
-			<div style="clear: both"></div>
-		</div>
+			<div class="marco">
+				<div class="fecha">
+					<p>11</p>
+					<p>dic</p>
+				</div>
+				<div class="text">
+					<img  class="flot" src="images/bike.png">
+					<div class="flotado1">
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
+					</div>
+					<div class="flotado">
+						<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
+					</div>
+				</div>
+				<div class="comments"> 
+					<p>120 comentarios</p>
+					<p><a href="#">Leer mas...</a></p>
+				</div>
+			</div>
 
-		<footer>
-			<div class="flotado1"><p>Copyright 2011 // JassTheme // Todos los derechos reservados</p></div>
+			<div class="marco">
+				<div class="fecha">
+					<p>11</p>
+					<p>dic</p>
+				</div>
+				<div class="text">
+					<img  class="flot" src="images/bike.png">
+					<div class="flotado1">
+						<p>Lorem ipsum dolor sit amet</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011 - Por <a href="#">Admin</a></p>
+					</div>
+					<div class="flotado">
+						<p>Donec placerat, orci eget laoreet adipiscing, nulla dolor tristique augue, in dictum mi enim vitae massa. Etiam vel diam non mi molestie condimentum id ut lacus.</p>
+					</div>
+				</div>
+				<div class="comments"> 
+					<p>120 comentarios</p>
+					<p><a href="#">Leer mas...</a></p>
+				</div>
+			</div>
+		</section>
+
+		<aside class="flotado">
 			<div>
-				<ul>
+				<div id="categ" class="flotado1"><p>Categorias</p></div><!-- Debería ser una etiqueta de titulo h3, h4 --> 
+				<div>
+					<div class="flotado">
+						<ul>
+							<li>Backgrounds</li>
+							<li>Brushes</li>
+							<li>Design Articles</li>
+							<li>Fonts</li>
+							<li>Free PSD Files</li>
+							<li>Icons</li>
+							<li>Logo</li>
+							<li>Pattierns</li>
+							<li>Textures</li>
+							<li>Tools & Utilities</li>
+						</ul>
+					</div>
+					<div class="flotado">
+						<ul>
+							<li>Backgrounds</li>
+							<li>Brushes</li>
+							<li>Design Articles</li>
+							<li>Fonts</li>
+							<li>Free PSD Files</li>
+							<li>Icons</li>
+							<li>Logo</li>
+							<li>Pattierns</li>
+							<li>Textures</li>
+							<li>Tools & Utilities</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div>
+				<div id="socios" class="flotado1"><p>Socios</p></div><!-- Debería ser una etiqueta de titulo h3, h4 -->
+				<div>
+					<img src="images/image_01.png"><!-- Agregar atributo "title" para dar semantica -->
+					<img src="images/image_02.png"><!-- Agregar atributo "title" para dar semantica -->
+					<img src="images/image_03.png"><!-- Agregar atributo "title" para dar semantica -->
+					<img src="images/image_04.png"><!-- Agregar atributo "title" para dar semantica -->
+				</div>
+			</div>
+			<div>
+				<div id="video" class="flotado1"><p>Video</p></div><!-- Debería ser una etiqueta de titulo h3, h4 -->
+				<video width="320" height="240" controls>
+					<source src="images/Try.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'><!-- Colocar los archivos de video en una carpeta llamada video para mantener organizado el sitio -->
+				</video><!-- El video para ser correctamente visualizado se debe incluir en formato mp4, webm y ogv <video width="320" height="240" controls><source src="images/Try.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'><source src="images/Try.webm" type='video/webm; codecs="vp8, vorbis"'><source src="images/Try.ogv" type='video/ogg; codecs="theora, vorbis"'></video> -->
+			</div>
+			<div>
+				<div id="face" class="flotado1"><p>No Facebook</p></div><!-- Debería ser una etiqueta de titulo h3, h4 -->
+				<div><img src="images/facebook.png"></div>
+			</div>
+		</aside>
+		<div style="clear: both"></div><!-- Nuevamente, uso inadecuado de estilos en el tag -->
+	</article>
+
+	<div id="slide">
+		<img src="images/sld_moto.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_mountain.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_ligths.png"/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_colors.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_moto.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_colors.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_moto.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_ligths.png"/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_colors.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_moto.png "/><!-- Agregar atributo title para dar semantica -->
+		<img src="images/sld_ligths.png"/><!-- Agregar atributo title para dar semantica -->
+		<div style="clear: both"></div><!-- Nuevamente, uso inadecuado de estilos en el tag -->
+	</div>
+
+	<footer>
+		<div class="flotado1"><p>Copyright 2011 // JassTheme // Todos los derechos reservados</p></div>
+		<div>
+			<ul>
 				<li><p><a href="#">home</a> // </p></li>
 				<li><p><a href="#">Portafolio</a> // </p>
 					<ul>
@@ -261,9 +258,9 @@
 				<li><p><a href="#">Acerca de</a> // </p></li>
 				<li><p><a href="#">Contacto</a></p></li>
 			</ul>
-			</div>
-			<div style="clear: both"></div>
-		</footer>
+		</div>
+		<div style="clear: both"></div><!-- Nuevamente, uso inadecuado de estilos en el tag -->
+	</footer>
 
 </body>
 </html>
