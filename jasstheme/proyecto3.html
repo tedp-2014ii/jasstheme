@@ -5,144 +5,144 @@
 	<title> JASS THEME</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
-<body>
-		
-		<header>
-			<div>
-				<img class="flotado" src="logo.png">
-				<div class="content"></div>
-				<ul id="social">
-					<li> <a href="#" id="rss"></a></li>
-					<li> <a href="#" id="facebook"></a></li>
-					<li> <a href="#" id="twitter"></a></li>
-					<li> <a href="#" id="youtube"></a></li>
-
-				</ul>
-				
-				<div class="flotado1">
-					<button></button>
-					<input  type="search" placehoder="Buscar">
-				</div>
-			</div>
-			<div style="clear: both"></div>
-		</header>
-		
-		<nav>
-			<ul>
-				<li ><a href="#">home</a></li>
-				<li ><a href="#">servicios</a></li>
-				<li ><a href="#">portafolio</a>
-					<ul>
-						<li ><a href="#">logo marcas</a></li>
-						<li ><a href="#">web</a></li>
-					</ul>
-				</li>
-				<li ><a href="#">blog</a></li>
-				<li ><a href="#">sobre</a></li>
-				<li ><a href="#">contacto</a></li>
+<body>	
+	<header>
+		<div>
+			<img class="flotado" src="logo.png">
+			<div class="content"></div><!-- Este elemento no tiene sentido, emplear reglas CSS en los elementos cercanos -->
+			<ul id="social">
+				<li> <a href="#" id="rss"></a></li>
+				<li> <a href="#" id="facebook"></a></li>
+				<li> <a href="#" id="twitter"></a></li>
+				<li> <a href="#" id="youtube"></a></li>
 			</ul>
-			<div style="clear: both"></div>
-		</nav>
-		<figure>
-			<img class="flotado" src="conexao.png" title="grafic"/>
-			<figcaption class="flotado1"><p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></figcaption>	
-			
-			<div style="clear: both"></div>	
-		</figure>
-		
-		<article>
-			<section class="flotado">
-				
-				<div class="marco">
-					<div class="date">
-					<p>11 dic.</p></div>
-					<div>
-						<div><img  class="flot" src="bike.png"></div>
-						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
-						</div>
-						<div class="flotado">
-							<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
-						</div>
-					</div>
-					<div class="comentario"> 
-						<p>120 comentarios</p>
-						<p id="leer"><a href="#">leer mas</a></p>
-					</div>
-					<div style="clear: both"></div>	
+			<div class="flotado1">
+				<button></button><!-- <button type="submit" name="search"></button> -->
+				<input  type="search" placehoder="Buscar">
+			</div>
+		</div>
+		<div style="clear: both"></div><!-- No utilizar propiedades de estilo dentro de las etiquetas -->
+	</header>
+	<nav>
+		<ul>
+			<li ><a href="#">home</a></li>
+			<li ><a href="#">servicios</a></li>
+			<li ><a href="#">portafolio</a>
+				<ul>
+					<li ><a href="#">logo marcas</a></li>
+					<li ><a href="#">web</a></li>
+				</ul>
+			</li>
+			<li ><a href="#">blog</a></li>
+			<li ><a href="#">sobre</a></li>
+			<li ><a href="#">contacto</a></li><!-- Bien construido el menu, sólo no dejar el tag <li > debe ser <li> -->
+		</ul>
+		<div style="clear: both"></div>
+	</nav>
+	<figure>
+		<img class="flotado" src="conexao.png" title="grafic"/>
+		<figcaption class="flotado1"><p>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p></figcaption><!-- No tiene sentido flotar el <figcaption> debería tener un posicionamiento absoluto para mostrarlo al pie de la imagen -->
+		<div style="clear: both"></div>	
+	</figure>
+	<article>
+		<section class="flotado">
+			<div class="marco"><!-- Cada uno de estos elementos debería ser un <section> -->
+				<div class="date">
+					<p>11 dic.</p>
 				</div>
-				<div class="marco">
-					<div class="date">
-					<p>11 dic.</p></div>
-					<div>
-						<div><img  class="flot" src="bike.png"></div>
-						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
-						</div>
-						<div class="flotado">
-							<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
-						</div>
-					</div>
-					<div class="comentario"> 
-						<p>120 comentarios</p>
-						<p id="leer"><a href="#">leer mas</a></p>
-					</div>
-					<div style="clear: both"></div>	
-				</div>
-				<div class="marco">
-					<div class="date">
-					<p>11 dic.</p></div>
-					<div>
-						<div><img  class="flot" src="bike.png"></div>
-						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
-						</div>
-						<div class="flotado">
-							<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
-						</div>
-					</div>
-					<div class="comentario"> 
-						<p>120 comentarios</p>
-						<p id="leer"><a href="#">leer mas</a></p>
-					</div>
-					<div style="clear: both"></div>	
-				</div>
-				<div class="marco">
-					<div class="date">
-					<p>11 dic.</p></div>
-					<div>
-						<div><img  class="flot" src="bike.png"></div>
-						<div class="flotado1">
-							<p>LOREM IPSUM DOLOR SIT AMET</p>
-						</div>
-						<div class="flotado">
-							<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
-						</div>
-						<div class="flotado">
-							<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
-						</div>
-					</div>
-					<div class="comentario"> 
-						<p>120 comentarios</p>
-						<p id="leer"><a href="#">leer mas</a></p>
-					</div>
-					<div style="clear: both"></div>	
-				</div>
-
-				
-			</section>
-			<aside class="flotado">
 				<div>
-				<div class="flotado1"><p>categorias</p></div>
+					<div>
+						<img  class="flot" src="bike.png"><!-- El elemento <img> es "inline" y se comporta como un flotado -->
+					</div>
+					<div class="flotado1">
+						<p>LOREM IPSUM DOLOR SIT AMET</p><!-- Este debería ser por semantica un elemento de tipo h2, h3 -->
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
+					</div>
+					<div class="flotado">
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
+					</div>
+				</div>
+				<div class="comentario"> 
+					<p>120 comentarios</p>
+					<p id="leer"><a href="#">leer mas</a></p><!-- Bien implementado el elemento -->
+				</div>
+				<div style="clear: both"></div><!-- No utilizar estilos dentro de los tags -->
+			</div>
+			<div class="marco">
+				<div class="date">
+					<p>11 dic.</p>
+				</div>
+				<div>
+					<div>
+						<img  class="flot" src="bike.png">
+					</div>
+					<div class="flotado1">
+						<p>LOREM IPSUM DOLOR SIT AMET</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
+					</div>
+					<div class="flotado">
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
+					</div>
+				</div>
+				<div class="comentario"> 
+					<p>120 comentarios</p>
+					<p id="leer"><a href="#">leer mas</a></p>
+				</div>
+				<div style="clear: both"></div>	
+			</div>
+			<div class="marco">
+				<div class="date">
+				<p>11 dic.</p></div>
+				<div>
+					<div><img  class="flot" src="bike.png"></div>
+					<div class="flotado1">
+						<p>LOREM IPSUM DOLOR SIT AMET</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
+					</div>
+					<div class="flotado">
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
+					</div>
+				</div>
+				<div class="comentario"> 
+					<p>120 comentarios</p>
+					<p id="leer"><a href="#">leer mas</a></p>
+				</div>
+				<div style="clear: both"></div>	
+			</div>
+			<div class="marco">
+				<div class="date">
+				<p>11 dic.</p></div>
+				<div>
+					<div><img  class="flot" src="bike.png"></div>
+					<div class="flotado1">
+						<p>LOREM IPSUM DOLOR SIT AMET</p>
+					</div>
+					<div class="flotado">
+						<p> 11 de diciembre del 2011-pro <a href="#">Adm</a></p>
+					</div>
+					<div class="flotado">
+						<p>Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500.</p>
+					</div>
+				</div>
+				<div class="comentario"> 
+					<p>120 comentarios</p>
+					<p id="leer"><a href="#">leer mas</a></p>
+				</div>
+				<div style="clear: both"></div>	
+			</div>
+		</section>
+	<!-- Aquí debería cerrar el </article> -->
+		<aside class="flotado">
+			<div>
+				<div class="flotado1">
+					<p>categorias</p><!-- Este debería ser un elemento h2, h3 -->
+				</div>
 				<div>
 					<div class="flotado">
 						<ul>
@@ -174,48 +174,59 @@
 						</ul>
 					</div>
 				</div>
-				</div>
-				<div>
-					<div class="flotado1"><p> paceiros </p></div>
-					<div>
-						<img class="flotado" src="image_01.png">
-						<img class="flotado" src="image_02.png">
-						<img class="flotado" src="image_03.png">
-						<img class="flotado" src="image_04.png">
-
-					</div>
-				</div>
-				<div>
-					<div class="flotado1"><p>video</p></div>
-					
-				</div>
-				<VIDEO width = "400" height "240" controls >
-				<source src="propu_indecente.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'> 
-				 </VIDEO>
-				<div>
-					<div class="flotado1"><p>no facebook</p></div>
-					<div><img src="facebook.png"></div>
-				</div>
-			</aside>
-			<div style="clear: both"></div>
-		</article>
-		
-		<div id="scroll">
-				<img class="flotado" src="sld_colors.png "/>
-				<img class="flotado" src="sld_moto.png "/>
-				<img class="flotado" src="sld_mountain.png "/>
-				<img class="flotado" src="sld_ligths.png"/>
-				<img class="flotado" src="sld_colors.png "/>
-				<img class="flotado" src="sld_moto.png "/>
-				<img class="flotado" src="sld_mountain.png "/>
-				<img class="flotado" src="sld_ligths.png"/>
-
-			<div style="clear: both"></div>
-		</div>
-		<footer>
-			<div class="flotado1"><p>Copyright 2011 // JassTheme // Todos los derechos reservados</p></div>
+			</div>
 			<div>
-				<ul>
+				<div class="flotado1"><!-- Al tener el titulo en una etiqueta h2, h3 no requieres un div contenedor para asignar las propiedades, recuerda que se comporta como un bloque -->
+					<p> paceiros </p><!-- Por semantica este debería ser un elemento de tipo h2, h3 -->
+				</div>
+				<div>
+					<img class="flotado" src="image_01.png"><!-- Por semantica las imagenes deben llevar un atributo alt con la descripción -->
+					<img class="flotado" src="image_02.png"><!-- Las imagenes van en la carpeta images -->
+					<img class="flotado" src="image_03.png">
+					<img class="flotado" src="image_04.png">
+				</div>
+			</div>
+			<div>
+				<div class="flotado1">
+					<p>video</p><!-- Por semantica este debería ser un elemento de tipo h2, h3 -->
+				</div>	
+			</div><!-- Esta etiqueta de cierre no corresponde a esta altura, debe encaptular el video -->
+				<VIDEO width = "400" height "240" controls >
+					<source src="propu_indecente.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'> 
+			 	</VIDEO><!-- Recuerda que para que el video sea visible en los distintos navegadores debes incluir el video en formatos mp4, webm y ogv
+			 	<video width="320" height="240" controls>
+					<source src="propu_indecente.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+					<source src="propu_indecente.webm" type='video/webm; codecs="vp8, vorbis"'>
+					<source src="propu_indecente.ogv" type='video/ogg; codecs="theora, vorbis"'>
+				</video>-->
+			<div>
+				<div class="flotado1">
+					<p>no facebook</p><!-- Por semantica este debería ser un elemento de tipo h2, h3 -->
+				</div>
+				<div>
+					<img src="facebook.png"><!-- Por semantica las imagenes deben llevar un atributo alt con la descripción -->
+				</div>
+			</div>
+		</aside>
+		<div style="clear: both"></div>
+	</article>	
+	<div id="scroll">
+		<img class="flotado" src="sld_colors.png "/>
+		<img class="flotado" src="sld_moto.png "/>
+		<img class="flotado" src="sld_mountain.png "/>
+		<img class="flotado" src="sld_ligths.png"/>
+		<img class="flotado" src="sld_colors.png "/>
+		<img class="flotado" src="sld_moto.png "/>
+		<img class="flotado" src="sld_mountain.png "/>
+		<img class="flotado" src="sld_ligths.png"/>
+		<div style="clear: both"></div>
+	</div>
+	<footer>
+		<div class="flotado1">
+			<p>Copyright 2011 // JassTheme // Todos los derechos reservados</p>
+		</div>
+		<div>
+			<ul>
 				<li class="flotado"><p><a href="#">home</a> // </p></li>
 				<li class="flotado"><p><a href="#">servicios</a> // </p></li>
 				<li class="flotado"><p><a href="#">porta folio</a> // </p>
@@ -225,8 +236,8 @@
 				<li class="flotado"><p><a href="#">sobre</a> // </p></li>
 				<li class="flotado"><p><a href="#">contacto</a></p></li>
 			</ul>
-			</div>
-			<div style="clear: both"></div>
-		</footer>
+		</div>
+		<div style="clear: both"></div>
+	</footer>
 </body>
 </html>
